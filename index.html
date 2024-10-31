@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bina Motor</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="top">
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="assets/img/logo.png" alt="Logo Perusahaan" class="company-logo"> <!-- Tambahkan elemen img untuk logo -->
+                <h1 class="company-name"><a href="#top">Bina Motor</a></h1>
+            </div>           
+            <nav>
+                <ul>
+                    <li><a href="#info">Tentang</a></li>
+                    <li><a href="#services">Pelayanan</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Slider banner -->
+    <section id="slider">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="assets/img/banner1.png" alt="Poster 1">
+            </div>
+            <div class="slide">
+                <img src="assets/img/banner2.png" alt="Poster 2">
+            </div>
+            <div class="slide">
+                <img src="assets/img/banner3.png" alt="Poster 3">
+            </div>
+        </div>
+
+        <!-- Tombol Panah Navigasi -->
+        <button class="arrow arrow-left">&#10094;</button>
+        <button class="arrow arrow-right">&#10095;</button>
+    </section>
+
+    <section id="info">
+        <div class="info-container">
+            <!-- Gambar di dalam kotak -->
+            <div class="info-image">
+                <img src="assets/img/company.jpg" alt="Gambar Perusahaan">
+            </div>
+    
+            <!-- Teks Informasi Perusahaan -->
+            <div class="info-content">
+                <h2>Tentang Kami</h2>
+                <p>Di Bina Motor, kami bangga menjadi penyedia layanan otomotif. Bengkel kami dikenal akan keunggulan dalam setiap aspek layanan kami. Dengan tim teknisi profesional yang berdedikasi, kami tidak hanya memberikan pelayanan yang memuaskan, tetapi juga berkomitmen penuh untuk memenuhi setiap kebutuhan pelanggan.</p>
+                <p>Kami selalu memperbarui teknologi dan pengetahuan kami agar bisa memberikan solusi terbaik bagi kendaraan Anda. Dari perawatan rutin hingga perbaikan kompleks, kami melakukan semuanya dengan standar tinggi. Di Bina Motor, kepuasan pelanggan adalah prioritas utama kami, dan kami selalu siap memberikan yang terbaik bagi Anda.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="services" class="services-section">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="services-container">
+            <button class="nav-arrow-service left-arrow" onclick="moveLeft()">‹</button>
+            <div class="service-wrapper">
+                <!-- Box layanan; tiap box berisi foto dan nama layanan -->
+                <div class="service-box">
+                    <img src="assets/icon_layanan/1.png" alt="Layanan 1">
+                    <p class="service-name">Ganti Oli</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/2.png" alt="Layanan 2">
+                    <p class="service-name">Engine tune up</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/3.png" alt="Layanan 3">
+                    <p class="service-name">Purging Diesel</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/4.png" alt="Layanan 4">
+                    <p class="service-name">Gurah mesin</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/5.png" alt="Layanan 5">
+                    <p class="service-name">Engine Flush</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/e6.png" alt="Layanan 6">
+                    <p class="service-name">Engine Over Houl</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/e7.png" alt="Layanan 7">
+                    <p class="service-name">Over Houl Transmisi</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/8.png" alt="Layanan 8">
+                    <p class="service-name">Ganti Kopling Manual/Matic</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/9.png" alt="Layanan 9">
+                    <p class="service-name">Engine Scaner</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/e10.png" alt="Layanan 10">
+                    <p class="service-name">Elektrikal</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/11.png" alt="Layanan 11">
+                    <p class="service-name">Service Rem</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/12.png" alt="Layanan 12">
+                    <p class="service-name">Service Kaki-Kaki</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/13.png" alt="Layanan 13">
+                    <p class="service-name">Power Window</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/14.png" alt="Layanan 14">
+                    <p class="service-name">Power Steering</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/15.png" alt="Layanan 15">
+                    <p class="service-name">Servis Trotle Body</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/e16.png" alt="Layanan 16">
+                    <p class="service-name">Servis AC Mobil</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/17.png" alt="Layanan 17">
+                    <p class="service-name">Isi Freon</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/18.png" alt="Layanan 18">
+                    <p class="service-name">Pasang Unit Baru</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/19.png" alt="Layanan 19">
+                    <p class="service-name">Audio</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/20.png" alt="Layanan 20">
+                    <p class="service-name">Pasang Head Unit</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/21.png" alt="Layanan 21">
+                    <p class="service-name">Camera Mundur</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/22.png" alt="Layanan 22">
+                    <p class="service-name">Alarm Remote Control</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/23.png" alt="Layanan 23">
+                    <p class="service-name">Lampu-Lampu</p>
+                </div>
+                <div class="service-box">
+                    <img src="assets/icon_layanan/24.png" alt="Layanan 24">
+                    <p class="service-name">Cooling Sistem</p>
+                </div>
+                <!-- Tambahkan layanan lainnya hingga total 24 box -->
+            </div>
+            <button class="nav-arrow-service right-arrow" onclick="moveRight()">›</button>
+        </div>
+    </section>
+    
+    
+
+    <section id="video">
+        <h2><center>Video</center></h2>
+        <video controls width="100%" poster="assets/videos/TN.png">
+            <source src="assets/videos/v1.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video.
+        </video>
+    </section>
+
+
+    <section id="gallery" class="dark-background">
+        <h2><center>Galeri</center></h2>
+        <div class="gallery-container">
+            <button class="gallery-arrow gallery-left">&lt;</button> <!-- Tombol panah kiri khusus galeri -->
+            <div class="gallery-images-wrapper">
+                <div class="gallery-images">
+                    <img src="assets/img/foto.png" alt="Gambar 1">
+                    <img src="assets/img/foto.png" alt="Gambar 2">
+                    <img src="assets/img/foto.png" alt="Gambar 3">
+                    <img src="assets/img/foto.png" alt="Gambar 4">
+                    <img src="assets/img/foto.png" alt="Gambar 5">
+                    <img src="assets/img/foto.png" alt="Gambar 6">
+                    <img src="assets/img/foto.png" alt="Gambar 7">
+                    <img src="assets/img/foto.png" alt="Gambar 8">
+                    <img src="assets/img/foto.png" alt="Gambar 9">
+                    <img src="assets/img/foto.png" alt="Gambar 10">
+
+                    <!-- Tambahkan gambar sesuai kebutuhan -->
+                </div>
+            </div>
+            <button class="gallery-arrow gallery-right">&gt;</button> <!-- Tombol panah kanan khusus galeri -->
+        </div>
+    </section>
+    
+    
+
+    <div class="card-container">
+        <!-- Teks di sebelah kiri peta -->
+        <div class="map-info">
+            <h3>Lokasi Kami</h3>
+            <p>Datanglah ke BinaMotor untuk layanan unggulan dan konsultasi secara langsung.</p>
+            <p>Temukan kami dengan mudah melalui peta di sebelah!</p>
+        </div>
+    
+        <!-- Peta Google Maps di dalam card -->
+        <div class="map-card">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.6861803950176!2d107.34877129367328!3d-6.3305731999174055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6977cc714715fb%3A0xcb5fc7e2eb1a449!2sBengkel%20Mobil%20Bina%20Motor!5e0!3m2!1sid!2sid!4v1729658295619!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <!-- Testimoni Pelanggan Section -->
+    <section id="testimoni">
+        <h2 class="section-title">Testimoni Pelanggan</h2>
+        <div class="testimonial-container">
+            <!-- Card Testimoni -->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/HzvdFo3sbDmZgYs77" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro1.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Dany Aulia</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Pelayanan nya bagus, kendaraan anter jemput. Tarif nya terjangkau. Ini mobil baru di servis di ambil dr rumah, dan di anter kembali ke rumah setelah selesai. Terbaik pokoknya dan recomen bgt</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 2-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/xmH1bdAzby3ovrix5" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro2.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Ngaprax Rider Karawang</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Ertiga ku oli rembes dan netes dari mesin, cek dan service di Bina motor hasil Josss langsung beres tidak keluar rembes lagi oli nya, pelayanan nya ramah dan baik.</p>
+                    
+                </div>
+            </div>
+            
+            <!-- Card Testimoni 3-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/SX5PuFtVzTog8oX69" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro3.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Abdullah Dul</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Tempat nyaman...pelayanan nya ramah...penanganan cepat.....pokoknya puas deh...gak bakal salah deh kalo anda memilih bengkel mobil bina mitra utk melakukan perawatan mobil ...</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 4-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/JV7uNXKEQSdVadjx7" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro4.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Agung Herdiana</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Layanan sangat memuaskan</p>
+                    <p class="review-text">Tempat tunggu juga adem ada AC nya</p>
+                    <p class="review-text">Montir nya ramah-ramah</p>
+                    <p class="review-text">Sangat diRekomendasi.</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 5-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/RPwS7nxmDQ7xGNQW9" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro5.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Mastom</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Cukup ramah.Montir profesional.</p>
+                    <p class="review-text">Nyaman harga bersahabat</p>
+                    <p class="review-text">Bisa di buktikan</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 6-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/miJWkf4K1sSt7KuUA" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro6.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Bayu Ay</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Gak sengaja nemu bengkel yg menurut sy OK. Rekomendasi, pengerjaannya rapi, bs home service jg. Pernah manggil k rumah krn mobil gk mau greng, pas dicek pompa bensin tdk dengung, kirain judgementnya ganti pompa, ternyata dicek dl secara berurut, alhamdulillah ketauan cm soketnya kotor dan dibersihkan OK lagi tanpa ganti part, jd lebih hemat.</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 7-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/CyZbUjWWufCDUZgYA" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro7.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Eka Gandara</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Mantap penanganan nya, bisa konsultasi, tempat nya enak</p>
+                </div>
+            </div>
+
+            <!-- Card Testimoni 8-->
+            <div class="testimonial-card">
+                <a href="https://maps.app.goo.gl/96VFw9CAN25JeUrQ8" target="_blank" class="google-maps-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="card-content">
+                    <div class="profile-section">
+                        <img src="assets/test/pro8.png" alt="Profile Pelanggan" class="profile-photo">
+                        <div class="customer-info">
+                            <h4>Arief Dimas Mudjianto</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <!-- Rating bisa disesuaikan --> 
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Masya allah ..servicenya bagus ,murah, mekaniknya ramah serta support full.</p>
+                </div>
+            </div>
+            <!-- Tambahkan card baru untuk setiap testimoni -->
+        </div>
+    </section>
+        
+    <!-- bintang setengah = "fas fa-star-half-alt", bintang penuh = "fas fa-star" -->
+
+
+
+    <footer id="kontak" class="footer">
+        <div class="footer-content">
+            <p class="collaborate-text">Let's Drive Responsibly Together</p>
+            <p class="main-text">Ready to elevate your car’s performance? At Bina Motor, we’re here to provide unparalleled automotive care and service. Connect with us today and experience the difference. Our team is eager to help you every step of the way. Let's make your car the best it can be!</p>
+            <!-- Tombol dengan tautan -->
+            <a href="https://wa.me/6281218730089" target="_blank" class="contact-button">LET'S TALK | +62 812 1873 0089</a>
+            <p class="contact-info">+62 812 8240 8161 | contact@binamotorckm.com</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://web.facebook.com/Binamotorkarawang?locale=id_ID" class="social-link" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Bina Motor. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="banner.js"></script>
+    <script src="service.js"></script>
+    <script src="gallery.js"></script>
+    
+</body>
+</html>
